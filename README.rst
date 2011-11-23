@@ -1,3 +1,9 @@
+=============
+hyde-buildout
+=============
+:Info: See `github <http://github.com/elbart/hyde-buildout>`_ for the latest source.
+:Author: Tim Eggert <tim@elbart.com>
+
 Description
 ===========
 
