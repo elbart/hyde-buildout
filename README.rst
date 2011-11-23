@@ -30,7 +30,7 @@ To run the builin http server, just use this command::
 
     make run
 
-Now you can server to ``http://localhost:8080`` to watch your site.
+Now you can surf to ``http://localhost:8080`` in your browser to watch your site.
 
 Publishing
 ==========
