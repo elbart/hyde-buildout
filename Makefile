@@ -1,8 +1,7 @@
 .PHONY: build new run gen tags
 
 build: bootstrap \
-        bin/buildout \
-        bin/hyde
+        bin/buildout
 
 new:
 	python bin/hyde -s source/ create
