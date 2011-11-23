@@ -1,4 +1,4 @@
-.PHONY: build new run static tags
+.PHONY: build new run gen tags
 
 build: bootstrap.py \
         bin/buildout \
@@ -14,16 +14,12 @@ run:
 gen:
 	python bin/hyde -s source/ gen
 
-bootstrap.py:
+bootstrap:
 	wget http://svn.zope.org/repos/main/zc.buildout/trunk/bootstrap/bootstrap.py
 
 bin/buildout:
 	mkdir eggs downloads
 	python bootstrap.py
-        
-bin/hyde: bin/buildout buildout.cfg
-	bin/buildout -N
-	touch $@
 
 tags:
 	bin/ctags -v
