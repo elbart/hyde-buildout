@@ -17,7 +17,7 @@ Building
 There is a simple Makefile which wraps the buildout hazzle and helps to get started very easily. 
 Just run the following commands to build a basic skeleton::
 
-    make bootstrap
+    make
     make new
 
 Now you have created the whole environment to get started with the Hyde project.

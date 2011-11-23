@@ -1,6 +1,6 @@
 .PHONY: build new run gen tags
 
-build: bootstrap.py \
+build: bootstrap \
         bin/buildout \
         bin/hyde
 
