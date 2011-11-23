@@ -11,6 +11,11 @@ This project provides a basic buildout setup to start with Hyde_.
 
 .. _Hyde: http://github.com/hyde/hyde
 
+Prerequesites
+=============
+
+You need python >= 2.6 installed on your system.
+
 Building
 ========
 
