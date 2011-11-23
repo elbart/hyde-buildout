@@ -14,8 +14,8 @@ This project provides a basic buildout setup to start with Hyde_.
 Building
 ========
 
-There is a simple Makefile which helps to get started very easy. 
-Just run the following commands::
+There is a simple Makefile which wraps the buildout hazzle and helps to get started very easily. 
+Just run the following commands to build a basic skeleton::
 
     make bootstrap.py
     make new
@@ -32,3 +32,7 @@ To run the builin http server, just use this command::
 
 Now you can server to ``http://localhost:8080`` to watch your site.
 
+Publishing
+==========
+
+@TODO
