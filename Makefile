@@ -22,3 +22,16 @@ bin/buildout:
 
 tags:
 	bin/ctags -v
+
+clean:
+	rm -rf .installed.cfg \
+	.mr.developer.cfg \
+	.project \
+	.pydevproject \
+	apps \
+	bin \
+	deploy \
+	develop-eggs \
+	parts \
+	project \
+	tags
