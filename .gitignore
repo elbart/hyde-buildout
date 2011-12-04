@@ -1,0 +1,12 @@
+/source
+/.mr.developer.cfg
+/parts
+/develop-eggs
+/eggs
+/project
+.installed.cfg
+.project
+.pydevproject
+/apps
+/bin
+/tags
