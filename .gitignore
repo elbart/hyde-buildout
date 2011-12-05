@@ -10,3 +10,6 @@
 /apps
 /bin
 /tags
+/src/deploy
+/src/.hyde_deps
+*.swp
