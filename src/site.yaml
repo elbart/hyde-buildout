@@ -32,15 +32,15 @@ context:
                 type: node
                 url: blog
             -
-                name: About
-                description: About
-                css_class: about
+                name: Imprint
+                description: Imprint
+                css_class: imprint
                 type: page
-                url: about.html
+                url: imprint.html
 meta:
     nodemeta: meta.yaml
     created: !!timestamp 2010-01-01 00:00:00
-    author: Lakshmi Vyasarajan
+    author: Tim Eggert
 sorter:
     time:
         attr:

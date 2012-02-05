@@ -1,0 +1,53 @@
+body {
+    background: #fff;
+    font-family: 'goudy old style', 'minion pro', 'bell mt', Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #3E4349;
+}
+a, a:visited {
+    color: #004B6B;
+    text-decoration: none;
+    border-bottom: 1px dotted #004B6B;
+}
+h1, h2, h3, h4, #header strong {
+    font: 22px 'Garamond', Georgia, 'Times New Roman', serif;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+h2 {
+    color: #777;
+    font-size: 20px;
+}
+#navigation h2 {
+    margin: 20px 0 10px;
+}
+#navigation h2.first {
+    margin: 0 0 10px;
+}
+h3 {
+    color: #555;
+    font-size: 18px;
+}
+h4 {
+    color: #333;
+    font-size: 16px;
+}
+#header {
+    margin-bottom: 20px;
+}
+p, li, td {
+    line-height: 150%;
+}
+input, textarea, select {
+    font-family: 'goudy old style', 'minion pro', 'bell mt', Arial, sans-serif;
+    font-size: 13px;
+    padding: 4px;
+}
+#footer {
+    margin-top: 20px;
+    color: #999;
+    font-size: 12px;
+}
