@@ -4,7 +4,7 @@ build: bootstrap \
         bin/buildout
 
 new:
-	python bin/hyde -s src/ create
+	python bin/hyde -s src/ create -f
 
 run:
 	python bin/hyde -s src/ gen
@@ -14,7 +14,7 @@ gen:
 	python bin/hyde -s src/ gen
 
 bootstrap:
-	wget http://svn.zope.org/repos/main/zc.buildout/trunk/bootstrap/bootstrap.py
+	[ -f bootstrap.py ] || wget http://svn.zope.org/repos/main/zc.buildout/trunk/bootstrap/bootstrap.py
 
 bin/buildout:
 	mkdir eggs downloads
